@@ -16,7 +16,7 @@
     <h1>Welcome to BadWords.php</h1>
 
     <form action="script.php" method="POST" >
-        <input type="text" name="text" id="text" placeholder="Type a word text here...">
+        <input type="text" name="text" id="text" placeholder="Type a word here...">
         <input type="text" name="badword" id="badword" placeholder="Type a badword to censure here...">
 
         <button type="submit">Send</button>
