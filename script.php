@@ -17,6 +17,6 @@ $final_text = str_replace($badword, '***', $text);
     <h5>Text is <?php echo strlen($text) ?> letters</h5>
 
     <h3>Censored word is:</h3><span><?php echo $final_text ?></p></span>
-
+    <h5>word is <?php echo strlen($final_text) ?> letters</h5>
 </body>
 </html>
